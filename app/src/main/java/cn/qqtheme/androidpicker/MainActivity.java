@@ -149,6 +149,10 @@ public class MainActivity extends Activity {
         picker.show();
     }
 
+	/**
+     * 单项选择
+     * @param view
+     */
     public void onOptionPicker(View view) {
         OptionPicker picker = new OptionPicker(this, new String[]{
                 "第一项", "第二项", "这是一个很长很长很长很长很长很长很长很长很长的很长很长的很长很长的项"
