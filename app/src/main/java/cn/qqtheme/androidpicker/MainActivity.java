@@ -75,6 +75,10 @@ public class MainActivity extends Activity {
         picker.show();
     }
 
+	/**
+     * 年月日
+     * @param view
+     */
     public void onYearMonthDayPicker(View view) {
         DatePicker picker = new DatePicker(this);
         picker.setRangeStart(2016, 8, 29);
